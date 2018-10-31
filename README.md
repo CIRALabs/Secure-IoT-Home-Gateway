@@ -1,5 +1,9 @@
 # Secure Home Gateway (SHG)
 
+Latest SGH presentations at RIPE77: https://ripe77.ripe.net/archives/video/2309/
+
+A recorded demo: https://www.youtube.com/watch?v=LauvEBa4Z4s&feature=youtu.be
+
 Here you will find the latest PowerPoint presentations (also in PDF) for the SHG.  CIRA and other members of the community are developing a prototype that provisions securely IoT devices based on their MUD profile.
 
 The prototype code is available here: https://github.com/CIRALabs
