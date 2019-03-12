@@ -1,8 +1,8 @@
 # Secure Home Gateway (SHG)
 
-##CIRA Labs Project information: https://cira.ca/cira-secure-home-gateway
+## CIRA Labs Project information: https://cira.ca/cira-secure-home-gateway
 
-##Our GOAL: To develop running code!
+## Our GOAL: To develop running code!
 
 _CircleID article: https://www.circleid.com/posts/20190305_an_update_from_cira_on_iot_security/_
 
@@ -14,7 +14,7 @@ For many internet organizations, one of the highest ranking risk for internet or
 
 It is worthwhile noting that there is no (AFAIK) mechanism available today to implement enterprise type security controls into a home gateway.  
 
-###Nobody should think of connecting a 'dumb' IoT device directly on the internet, and with IPv6, this is just going to get worse, so now is the time to fix this.
+### Nobody should think of connecting a 'dumb' IoT device directly on the internet, and with IPv6, this is just going to get worse, so now is the time to fix this.
 
 The project team is currently developing a prototype / proof of concept / running code.  The team is also documenting the requirement for a next generation secure home gateway and a home registry solution that with security controls can protect IoT devices and the internet from each other.  The project is an innovative IoT initiative to develop a solution for a secure home networks and a trust framework for its connected devices based on domain names and DNSSEC.
 
