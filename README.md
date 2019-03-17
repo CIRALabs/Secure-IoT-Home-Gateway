@@ -10,17 +10,39 @@ Here you will find the latest PowerPoint presentations (also in PDF) for the SHG
 
 _The prototype code is available here: https://github.com/CIRALabs_
 
-For many internet organizations, one of the highest ranking risk for internet organization are large-scale DDoS attack originating from IoT devices.  One of the mitigation mechanisms for this risk is to prevent weaponization of IoT devices.  IoT devices are weaponized when vulnerabilities are exposed or accessible to bad actors on the internet.  Protecting IoT devices at the edge with security access controls is another layer of security (because you can’t have too many layers of security). The security access controls are aimed at protecting the IoT devices from the internet, and to protect the internet from IoT devices.  
+For many internet organizations, one of the highest ranking risk for internet organization are large-scale DDoS attack originating from IoT devices.  One of the mitigation mechanisms for this risk is to prevent weaponization of IoT devices.  IoT devices are weaponized when vulnerabilities are exposed or accessible to bad actors on the internet.  Protecting IoT devices at the edge with security access controls is another layer of security (because you can’t have too many layers of security). The security access controls are aimed at protecting the IoT devices from the internet, and to protect the internet from IoT devices.
 
-It is worthwhile noting that there is no (AFAIK) mechanism available today to implement enterprise type security controls into a home gateway.  
+It is worthwhile noting that there is no (AFAIK) mechanism available today to implement enterprise type security controls into a home gateway.
 
-### Nobody should think of connecting a 'dumb' IoT device directly on the internet, and with IPv6, this is just going to get worse, so now is the time to fix this.
+### Nobody should think of connecting a 'dumb' IoT device directly on the internet
 
-The project team is currently developing a prototype / proof of concept / running code.  The team is also documenting the requirement for a next generation secure home gateway and a home registry solution that with security controls can protect IoT devices and the internet from each other.  The project is an innovative IoT initiative to develop a solution for a secure home networks and a trust framework for its connected devices based on domain names and DNSSEC.
+While some think NAT protects them, IPv4 NAT44 with UPnP is completely open.
+Some think that IPv6 is a problem, but IPv6 just makes this problem visible,
+and visible in a way that makes it tractable.
 
-The ultimate goal of this project is to develop open standards with IETF & ISO/IEC and to develop open source openWRT code that can be freely used to next generation secure home gateways.
+## The prototype
 
-Remotely accessing the home network is another aspect we're looking at in defining security access controls for an IoT device, we want to develop security access control rules to allow for example your mobile to access the camera in your fridge.  To do this we need to provision a domain name for the gateway to which a vpn connection can be established and enable the connectivity between the mobile and fridge.  The domain provisioning story in the slide deck is tuned to CIRA and .CA, but is meant to be adapted by all ccTLD on the planet.  A framework for ccTLD to provision domains to secure home gateways.
+The project team is currently developing a prototype / proof of concept /
+running code.  The team is also documenting the requirement for a next
+generation secure home gateway and a home registry solution that with
+security controls can protect IoT devices and the internet from each other.
+The project is an innovative IoT initiative to develop a solution for a
+secure home networks and a trust framework for its connected devices based on
+domain names and DNSSEC.
+
+The ultimate goal of this project is to develop open standards with IETF &
+ISO/IEC and to develop open source openWRT code that can be freely used to
+next generation secure home gateways.
+
+Remotely accessing the home network is another aspect we're looking at in
+defining security access controls for an IoT device, we want to develop
+security access control rules to allow for example your mobile to access the
+camera in your fridge.  To do this we need to provision a domain name for the
+gateway to which a vpn connection can be trivially established and enable the
+connectivity between the mobile and fridge.  The domain provisioning story in
+the slide deck is tuned to CIRA and .CA, but is meant to be adapted by all
+ccTLD on the planet.  A framework for ccTLD to provision domains to secure
+home gateways.
 
 _MUD Related links: http://www.sandelman.ca/SSW/ietf/mud-links/
 
