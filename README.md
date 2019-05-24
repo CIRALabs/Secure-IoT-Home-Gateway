@@ -1,3 +1,5 @@
+![Secure Home Gateway Logo](/images/securehomegateway-02.png)
+
 # Secure Home Gateway (SHG)
 
 ## CIRA Labs Project information: https://cira.ca/cira-secure-home-gateway
